@@ -1,0 +1,19 @@
+.footer {
+    background: #e4e4e4;
+    height: 80px;
+}
+.footer h3 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(68 68 68);
+}
+
+@media only screen and (max-width: 767px) {
+.footer h3 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+}
+}

@@ -1,0 +1,12 @@
+.logo {
+    background: #e4e4e4;
+}
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo img {width: 80px;height: 80px;}
+    }

@@ -1,0 +1,40 @@
+.slider hr {
+    width: 200px;
+    color: red;
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+.slider h2{
+    text-align: center;
+    color: rgb(228 99 31);
+    
+}
+.slider-info img {
+    width: 80% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider-info p {
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.slider-info hr {
+    width: 140px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.animate-bounce {
+    animation: bounce 2s infinite !important;
+}
+
+@media only screen and (max-width: 767px) {
+.owl-nav {
+    display: none;
+}
+}

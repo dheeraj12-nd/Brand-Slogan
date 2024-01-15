@@ -1,0 +1,19 @@
+.zigzag p {
+    font-size: 28px;
+    font-weight: 300;
+    padding-top: 7%;
+    color: rgb(110 109 114);
+    font-style: italic;
+}
+
+@media only screen and (max-width: 767px) {
+.zigzag p {
+    font-size: 20px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.zigzag p {
+    padding-top: 0%;
+}
+}
